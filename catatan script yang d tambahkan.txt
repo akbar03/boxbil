@@ -1,0 +1,15 @@
+1.\ bb-library \ Payment\Adapter\PayLane.php
+1.\ bb-library \ Payment\PayLaneRestClient.php
+2.\ bb-vendor \ composer \ autoload_classmap.php
+	'PayLaneRestClient' => $ baseDir. '/bb-library/Payment/PayLaneRestClient.php',
+3.\ bb-themes \ huraga \ assets \ css \ logos.css
+	.logo-PayLane{
+	background: transparent url("../img/gateway_logos/paylane.png") no-repeat scroll 0% 0%;
+	background-size: contain;
+	width: 95px;
+	height: 37px;
+	border: 0;
+	margin: 10px;
+	}
+4.\ bb-themes \ huraga \ assets \ img \ gateway_logos
+	-paylane.png
